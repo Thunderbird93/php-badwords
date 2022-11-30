@@ -17,5 +17,6 @@ $bad = $_POST['bad'];
     <p>Paragrafo: <?php echo $par ?> </p>
     <p>Badword: <?php echo $bad ?> </p>
     <p>Lunghezza Paragrafo: <?php echo strlen($par) ?></p>
+    <p><?php echo str_replace($bad,'***',$par) ?></p>
 </body>
 </html>
