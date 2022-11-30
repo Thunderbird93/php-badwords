@@ -2,8 +2,9 @@
 
 $par = $_POST['par'];
 $bad = $_POST['bad'];
-
 ?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,5 +19,8 @@ $bad = $_POST['bad'];
     <p>Badword: <?php echo $bad ?> </p>
     <p>Lunghezza Paragrafo: <?php echo strlen($par) ?></p>
     <p><?php echo str_replace($bad,'***',$par) ?></p>
+    <!-- Altro -->
+    <a href="./side-project.php">NON cliccare questo link</a>
 </body>
 </html>
+
