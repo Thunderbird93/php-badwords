@@ -24,3 +24,9 @@ $bad = $_POST['bad'];
 </body>
 </html>
 
+<style>
+    a{
+        color: red;
+    }
+</style>
+
