@@ -15,6 +15,7 @@ $bad = $_POST['bad'];
 </head>
 <body>
     <p>Paragrafo: <?php echo $par ?> </p>
+    <br>
     <p>Badword: <?php echo $bad ?> </p>
 </body>
 </html>

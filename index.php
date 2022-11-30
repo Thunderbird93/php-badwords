@@ -8,8 +8,8 @@
 </head>
 <body>
     <form action="./landing-page.php" method="POST">
-        <input type="text" name="par" placeholder="Quanti giorni mancano a Natale?">
-        <input type="text" name="bad" placeholder="Che parolaccia insegnerai a tuo nipote?">
+        <input type="text" name="par" placeholder="Quanti anni hai?">
+        <input type="text" name="bad" placeholder="La tua prima parolaccia">
         <button type="submit">INVIA</button>
     </form>
 </body>
