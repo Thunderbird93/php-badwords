@@ -7,6 +7,10 @@
     <title>php badwords</title>
 </head>
 <body>
-    <form action=""></form>
+    <form action="./landing-page.php" method="POST">
+        <input type="text" name="par" placeholder="Quanti giorni mancano a Natale?">
+        <input type="text" name="bad" placeholder="Che parolaccia insegnerai a tuo nipote?">
+        <button type="submit">INVIA</button>
+    </form>
 </body>
 </html>
