@@ -12,6 +12,7 @@
         <input type="text" name="bad" placeholder="Che parola vuoi censurare?">
         <button type="submit">INVIA</button>
     </form>
+    <!-- FINE -->
 </body>
 </html>
 
