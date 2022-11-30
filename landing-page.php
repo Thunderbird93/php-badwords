@@ -1,3 +1,10 @@
+<?php
+
+$par = $_POST['par'];
+$bad = $_POST['bad'];
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +14,7 @@
     <title>php badwords - landing page</title>
 </head>
 <body>
-    
+    <p>Paragrafo: <?php echo $par ?> </p>
+    <p>Badword: <?php echo $bad ?> </p>
 </body>
 </html>
