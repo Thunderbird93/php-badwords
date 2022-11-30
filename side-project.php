@@ -11,11 +11,11 @@
     <img src="./img/saw.jpeg" alt="">
     <h1>Vogliamo giocare?</h1>
     <div class="scelta">
-        <button>
-            <a href="./side-project-two.php">Sì, certamente!</a>
+        <button class="best">
+            <a class="good" href="./side-project-two.php">Sì, certamente!</a>
         </button>
-        <button>
-            <a href="./index.php">No, portami indietro.</a>
+        <button class="worst">
+            <a class="bad" href="./index.php">No, portami indietro.</a>
         </button>
     </div>
     </span>
@@ -26,7 +26,29 @@
     a{
         text-decoration: none;
         color: black;
+        background-color: silver;
+        border-radius: 5px;
+        padding: 5px;
     }
+
+    .good:hover{
+        background: red;
+    }
+
+    .worst:hover{
+        background-image: url(./img/spiderman.jpeg);
+        background-size: cover;
+    }
+
+    .best:hover{
+        background-image: url(./img/spidey.jpg);
+        background-size: cover;
+    }
+
+    .bad:hover{
+        background: green;
+    }
+
     img{
         height: 250px;
     }
@@ -35,8 +57,13 @@
     }
 
     button{
-        width: 100px;
+        width: 300px;
+        height: 200px;
         margin: 10px;
+        border: none; 
+        background-color: white;
+        /*debug*/
+        border: 1px dotted grey;
     }
 
     span{
