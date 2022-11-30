@@ -2,11 +2,15 @@
 
 $na = $_POST['name'];
 $nar = strrev($na); 
+$figlio = ucwords(strtolower($nar));
+//
 $su = $_POST['surname'];
 $sur = strrev($su);
+$padre = ucwords(strtolower($sur));
+//
 $ci = $_POST['city'];
 $cir = strrev($ci);
-
+$popolo = ucwords(strtolower($cir));
 ?>
 
 <!DOCTYPE html>
@@ -20,11 +24,11 @@ $cir = strrev($ci);
 <body>
     <main>
         <div class="testo">
-            <h1>Tu sei il grande <?php echo ucwords(strtolower($nar)); ?>,</h1>
-            <p>Filgio di <?php echo ucwords(strtolower($sur)); ?>,</p>
-            <p>Della trib&ugrave di <?php echo ucwords(strtolower($cir)); ?>!</p>
-            <p>Uno degli ultimi sette saggi! Purvurur, Garen, Pastararin, Giugiar, Taram, Fusciusc e Tarin He!
-Colui il quale può leggere nel presente, nel passato e anche nel congiuntivo! </p>
+            <h1>Tu sei il grande <?php echo substr($figlio, 0, -1); ?>,</h1>
+            <p>Filgio di <?php echo substr($padre, 0, -1); ?>,</p>
+            <p>Della trib&ugrave di <?php echo substr($popolo, 0, -1); ?>!</p>
+            <p><em>Uno degli ultimi sette saggi! Purvurur, Garen, Pastararin, Giugiar, Taram, Fusciusc e Tarin He!
+Colui il quale può leggere nel presente, nel passato e anche nel congiuntivo! </em></p>
         </div>
     </main>
 </body>
