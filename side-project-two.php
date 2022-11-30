@@ -37,6 +37,7 @@
     *{
     margin: 0;
     padding: 0;
+    overflow: hidden;
     }
 
     header{
@@ -50,12 +51,16 @@
     main{
         background-image: url(./img/seer.jpg);
         background-repeat: no-repeat;
-        background-position: right;
+        background-size: contain;
+        background-position: top;
         height: 100vh;
+        padding: 10px;
     }
-
+    
     form{
-        background-color: rgba( 255, 255, 255, 40%);
+        background-color: rgba( 62, 127, 172, 90%);
+        width: max-content;
+        padding: 25px;
     }
 
     .line{
